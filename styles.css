@@ -6,6 +6,7 @@ body {
     to your card.
     */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 .avatar {
@@ -40,6 +41,36 @@ body {
     text-shadow: 1px 0px 3px #7482b7;
 
 }   
+
+form {
+    display: inline-block;
+    width: 500px;
+    /* Form outline */
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid #656FB8;
+    border-radius: 3px;
+    text-align: left;
+  }
+
+.inForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: flex-start;
+}
+
+.btn-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+}
+
+.txt {
+    font-size: 10px;
+}
+
 /*
 Stretch goals:
 Find other ways you can personalize 
